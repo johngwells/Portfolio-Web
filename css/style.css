@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: aliceblue;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 2rem;
+  margin-top: .5rem;
+}
+
+.logo {
+  width: 90vw;
+  margin-left: .5rem;
+  color: #5bacc3;
+}
+
+a:link, a:visited {
+  color: #040404;
+  margin-right: 2.5rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f8dd44;
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(37, 211, 102, 0.15),
+    rgb(29, 161, 242, 0.15)
+  ),
+  url('../img/javascript.jpg');
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.header img {
+  margin-top: 15vh;
+  width: 17vw;
+  border: .2rem solid #f8dd44;
+  border-radius: 50%;
+}
+
+.header__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  color: black;
+  /* background-color: rgb(240, 248, 255, .40); */
+  background-color: rgb(240, 248, 255, .90);
+  width: 17vw;
+  border-radius: .5rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  width: 0;
+  margin-top: .5rem;
+}
+
+.social i {
+  display: flex;
+  padding: .25rem;
+  color: aliceblue;
+  font-size: 2.5rem;
+}
+
+.social i:hover {
+  color: #f8dd44;
+  cursor: pointer;
+}
+
+.fa-rocket {
+  margin-right: .2rem;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.5rem;
+}
+
+.text-align {
+  margin-top: 7.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.section-one span {
+  margin-left: .5rem;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: 35vh;
+  width: 25vw;
+  /* border: 3px solid #5bacc3; */
+  box-shadow: 0px 5px 5px 5px rgb(91, 172, 195, .1);
+  transition: all .3s ease-in-out;
+
+}
+
+.card:hover {
+  box-shadow: 0px 10px 10px  10px rgb(91, 172, 195, .2);
+}
+
+hr {
+  border: none;
+  background-color: #5bacc3;
+  height: 1px;
+}
+
+footer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  text-align: center;
+}
