@@ -50,32 +50,32 @@ a:hover {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
+.header__main-content {}
+
 .header img {
   margin-top: 15vh;
   width: 17vw;
   border: .2rem solid rgb(248, 221, 68, .5);
   box-shadow: .5rem .75rem .3rem rgb(0, 0, 0, .2);
   border-radius: 50%;
+  margin-bottom: .5rem;
 }
 
 .header__social {
-  display: flex;
-  justify-content: center;
   margin-top: .5rem;
+  margin-left: 2rem;
 }
 
 .header__social--icon-container {
-  display: flex;
-  width: 7%;
+  padding: .5rem;
 }
 
 .header__social i {
-  padding: .5rem;
-  color: aliceblue;
+  color: aliceblue; 
   font-size: 2.5rem;
 }
 
-.header__social i:hover {
+i:hover {
   color: #f8dd44;
   cursor: pointer;
   transition: all .2s ease-in-out;
