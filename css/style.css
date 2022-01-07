@@ -58,21 +58,24 @@ a:hover {
   border-radius: 50%;
 }
 
-.social {
+.header__social {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
   margin-top: .5rem;
 }
 
-.social i {
-  width: 20%;
+.header__social--icon-container {
+  display: flex;
+  width: 7%;
+}
+
+.header__social i {
   padding: .5rem;
   color: aliceblue;
   font-size: 2.5rem;
 }
 
-.social i:hover {
+.header__social i:hover {
   color: #f8dd44;
   cursor: pointer;
   transition: all .2s ease-in-out;
