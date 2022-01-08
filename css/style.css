@@ -1,6 +1,13 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 html {
@@ -9,10 +16,13 @@ html {
 }
 
 .navigation {
+  font-size: 2rem;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 100vw;
   height: 2rem;
+  padding: 1.5rem;
   margin-top: .5rem;
 }
 
@@ -72,7 +82,7 @@ a:hover {
 
 .header__social i {
   color: aliceblue; 
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 i:hover {
@@ -85,6 +95,7 @@ i:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 3rem;
   color: black;
   background-color: rgb(240, 248, 255, .90);
   box-shadow: 0 .2rem .2rem .2rem;
@@ -101,12 +112,14 @@ i:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 7.5rem;
+  font-size: 3rem;
+  margin-top: 10rem;
 }
 
 .text-align {
-  margin-top: 7.5rem;
+  margin-top: 15rem;
   text-align: center;
+  font-size: 3rem;
   margin-bottom: 2.5rem;
 }
 
@@ -118,6 +131,7 @@ i:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-size: 1.5rem;
   margin-bottom: 10rem;
 }
 
@@ -127,13 +141,13 @@ i:hover {
   flex-direction: column;
   height: 35vh;
   width: 25vw;
-  box-shadow: 0px .5rem .5rem .5rem rgb(91, 172, 195, .1);
+  box-shadow: 0px .5rem .5rem rgb(91, 172, 195, .1);
   transition: all .3s ease-in-out;
-
+  margin-bottom: 10rem;
 }
 
 .card:hover {
-  box-shadow: 0px 1rem 1rem 1rem rgb(91, 172, 195, .2);
+  box-shadow: 0px .5rem .7rem rgb(91, 172, 195, .2);
 }
 
 .card__content {
@@ -167,12 +181,14 @@ i:hover {
 }
 
 hr {
-  border: none;
-  background-color: #5bacc3;
+  /* border: none; */
+  /* background-color: #5bacc3; */
+  border-style: dotted;
   height: 1px;
 }
 
 footer {
+  font-size: 1.7rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
   text-align: center;
