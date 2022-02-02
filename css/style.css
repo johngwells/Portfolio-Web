@@ -21,7 +21,11 @@ html {
   max-width: 100%;
   height: 2rem;
   padding: 1.5rem;
-  margin-top: .5rem;
+  /* margin-top: .5rem; */
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: aliceblue;
 }
 
 .logo {
@@ -37,9 +41,12 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #f8dd44;
-  text-decoration: underline;
+  color: #5bacc3;
   transition: all .2s ease-in-out;
+}
+
+.parens {
+  color: #5bacc3;
 }
 
 .header {
@@ -89,14 +96,17 @@ i:hover {
 
 .header__heading {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  margin-top: 30rem;
   font-size: 3rem;
   color: black;
   background-color: rgb(240, 248, 255, .90);
   box-shadow: 0 .2rem .2rem .2rem;
-  /* width: 17vw; */
   border-radius: .5rem;
+  width: 30rem;
+  padding: 2rem;
 }
 
 .fa-rocket {
@@ -109,18 +119,33 @@ i:hover {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
-.text-align {
-  margin-top: 15rem;
+.section-one h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects__text {
+  margin-top: 25rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 2.5rem;
 }
 
+.projects__subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  color: #5bacc3
+}
+
 .section-one span {
+  margin-top: -2rem;
   margin-left: .5rem;
+  margin-bottom: 3rem;
 }
 
 .section-two {
@@ -129,6 +154,7 @@ i:hover {
   justify-content: space-around;
   font-size: 1.5rem;
   margin-bottom: 10rem;
+  margin-top: 5rem;
 }
 
 .card {
@@ -136,14 +162,14 @@ i:hover {
   justify-content: center;
   flex-direction: column;
   height: 35vh;
-  width: 25vw;
+  width: 23vw;
   box-shadow: 0px .5rem .5rem rgb(91, 172, 195, .1);
   transition: all .3s ease-in-out;
   margin-bottom: 10rem;
 }
 
 .card:hover {
-  box-shadow: 0px .5rem .7rem rgb(91, 172, 195, .2);
+  box-shadow: .3rem 1.5rem 1rem rgb(91, 172, 195, .2);
 }
 
 .card__content {
@@ -152,6 +178,30 @@ i:hover {
   height: 80vh;
   width: 100%;
   /* border: 1px solid black; */
+}
+
+.fill {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.fill img {
+  /* object-fit: cover; */
+  /* object-position: top; */
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.title {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.sub-title {
+  padding: 1rem;
 }
 
 .card__bottom {

@@ -15,84 +15,101 @@
 
 <body>
     <nav class='navigation'>
-        <p class='logo'>John Wells</p>
-        <a href='#'>TechStack</a>
-        <a href='#'>Projects</a>
-        <a href='#'>Contact</a>
+        <p class='logo'><a href='#top'>console.log<span class='parens'>(</span>'John Wells'<span class='parens'>);</a></span></p>
+        <a href='#techstack'>TechStack<span class='parens'>()</span></a>
+        <a href='#projects'>Projects<span class='parens'>()</span></a>
+        <a href='#contact'>Contact<span class='parens'>()</span></a>
     </nav>
-    
+
     <header class='header'>
         <div class='header__main-content'>
-            <img src='/img/me.jpg' />
-            
+            <!-- <img src='/img/me.jpg' /> -->
+
             <h1 class='header__heading'>
-                <span>JavaScript</span>
-                <span>Full Stack</span>
-                <span>Developer</span>
+                <span>const iAm = () => { &ensp; return 'JavaScript &ensp; Developer'; <br>};</span>
             </h1>
         </div>
         <div class='header__social'>
             <div class='header__social--icon-container'>
                 <a href='https://github.com/johngwells' target='_blank'><i class="fab fa-github"></i></a>
-                <a href='https://www.linkedin.com/in/john-wells-574aa8134/' target='_blank'><i class="fab fa-linkedin-in"></i></a>
+                <a href='https://www.linkedin.com/in/john-wells-574aa8134/' target='_blank'><i
+                        class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </header>
 
+    <div id='techstack'></div>
+
     <section class='section-one'>
         <i class="fa-solid fa-rocket"></i>
         <h2>Tech Stack</h2>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Node</span>
-        <span>MongoDB</span>
-        <span>SQL</span>
+        <div class='section-one__span'>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node</span>
+            <span>MongoDB</span>
+            <span>SQL</span>
+        </div>
     </section>
 
-    <div>
-        <h2 class='text-align'>Projects</h2>
+    <div class='projects-container'>
+        <h2 class='projects__text'>Projects</h2>
+        <h3 class='projects__subtitle'>*Icons* <i class="fa-solid fa-laptop-code"></i> live app | <i
+                class="fa-solid fa-angle-right"></i> github</h3>
     </div>
 
-    <section class='section-two'>
+    <section id='projects' class='section-two'>
         <div class='card'>
-            <div class='card__content'>
-                <p>Content / Image</p>
+            <div class='card__content fill'>
+                <img src='./img/Nextflix.png'>
             </div>
             <div class='card__bottom'>
                 <div class='card__bottom-left'>
-                    <span class='title'>Project 1</span>
-                    <span class='sub-title'><i class="fa-solid fa-laptop-code"></i> Web Design</span>
+                    <span class='title'>Nextflix</span>
+                    <div class='sub-title'>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>Javascript | Next.JS | YoutubeAPI Backend: GraphQL, Hasura, Postgres</span>
+                    </div>
                 </div>
                 <div class='card__bottom-right'>
-                    <a href='#'><i class="fa-solid fa-angle-right"></i></a>
+                    <a href='https://github.com/johngwells/NextFlix' target='_blank'><i
+                            class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
         </div>
         <div class='card'>
-            <div class='card__content'>
-                <p>Content / Image</p>
+            <div class='card__content fill'>
+                <img src='./img/Nextflix.png'>
             </div>
             <div class='card__bottom'>
                 <div class='card__bottom-left'>
-                    <span class='title'>Project 1</span>
-                    <span class='sub-title'><i class="fa-solid fa-laptop-code"></i>Front-End</span>
+                    <span class='title'>Nextflix</span>
+                    <div class='sub-title'>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>Javascript | Next.JS | YoutubeAPI Backend: GraphQL, Hasura, Postgres</span>
+                    </div>
                 </div>
                 <div class='card__bottom-right'>
-                    <a href='#'><i class="fa-solid fa-angle-right"></i></a>
+                    <a href='https://github.com/johngwells/NextFlix' target='_blank'><i
+                            class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
         </div>
         <div class='card'>
-            <div class='card__content'>
-                <p>Content / Image</p>
+            <div class='card__content fill'>
+                <img src='./img/Nextflix.png'>
             </div>
             <div class='card__bottom'>
                 <div class='card__bottom-left'>
-                    <span class='title'>Project 1</span>
-                    <span class='sub-title'><i class="fa-solid fa-laptop-code"></i> Back-End</span>
+                    <span class='title'>Nextflix</span>
+                    <div class='sub-title'>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>Javascript | Next.JS | YoutubeAPI Backend: GraphQL, Hasura, Postgres</span>
+                    </div>
                 </div>
                 <div class='card__bottom-right'>
-                    <a href='#'><i class="fa-solid fa-angle-right"></i></a>
+                    <a href='https://github.com/johngwells/NextFlix' target='_blank'><i
+                            class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
         </div>
