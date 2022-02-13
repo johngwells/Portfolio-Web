@@ -15,7 +15,8 @@
 
 <body>
     <nav class='navigation'>
-        <p class='logo'><a href='#top'>console.log<span class='parens'>(</span>'John Wells'<span class='parens'>);</a></span></p>
+        <p class='logo'><a href='#top'>console.log<span class='parens'>(</span>'John Wells'<span
+                    class='parens'>);</a></span></p>
         <a href='#techstack'>TechStack<span class='parens'>()</span></a>
         <a href='#projects'>Projects<span class='parens'>()</span></a>
         <a href='#contact'>Contact<span class='parens'>()</span></a>
@@ -43,82 +44,103 @@
     <section class='section-one'>
         <i class="fa-solid fa-rocket"></i>
         <h2>Tech Stack</h2>
-        <div class='section-one__span'>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Next.JS</span>
-            <span>Node</span>
-            <span>MongoDB</span>
-            
+        <div>
+            <div class='section-one__span'>
+                <span>Frontend:</span>
+                <span>React</span>
+                <span>Next.JS</span>
+            </div>
+            <div class='section-two__span'>
+                <span>Backend:</span>
+                <span>NodeJS</span>
+                <span>GraphQL/Apollo</span>
+            </div>
+            <div class='section-two__span'>
+                <span>Database:</span>
+                <span>Hasura w/ postgres,</span>
+                <span>Firebase & Airtable</span>
+            </div>
         </div>
     </section>
 
     <div class='projects-container'>
         <h2 class='projects__text'>Projects</h2>
-        <h3 class='projects__subtitle'>*Icons* <i class="fa-solid fa-laptop-code icon-margin"></i>live app &nbsp;|&nbsp; <i
-                class="fa-solid fa-angle-right"></i>&nbsp; github</h3>
+        <h3 class='projects__subtitle'>*Icons* <i class="fa-solid fa-laptop-code icon-margin"></i>live app &nbsp;|&nbsp;
+            <i class="fa-solid fa-angle-right"></i>&nbsp; github
+        </h3>
     </div>
 
     <section id='projects' class='section-two'>
         <div class='card'>
             <div class='card__content fill'>
-                <img src='./img/Nextflix.png'>
+                <img src='./img/FlowOS.png'>
             </div>
             <div class='card__bottom'>
                 <div class='card__bottom-left'>
-                    <span class='title'><a href='https://nextflix-tau.vercel.app/'><i class="fa-solid fa-laptop-code"></i></a>Nextflix</span>
-                    
-                    <div class='sub-title'>
-                        
-                        <span>Frontend: Javascript, Next.JS, React, <br><br>API: Youtube API <br><br>Backend: GraphQL, Hasura, Postgres</span>
-                    </div>
-                </div>
-                <div class='card__bottom-right'>
-                    <a href='https://github.com/johngwells/NextFlix' target='_blank'><i
-                            class="fa-solid fa-angle-right icon-large"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class='card'>
-            <div class='card__content fill'>
-                <img src='./img/Nextflix.png'>
-            </div>
-            <div class='card__bottom'>
-                <div class='card__bottom-left'>
-                    <span class='title'><a href='https://nextflix-tau.vercel.app/'><i class="fa-solid fa-laptop-code"></i></a>Nextflix</span>
-                    
-                    <div class='sub-title'>
-                        
-                        <span>Frontend: Javascript, Next.JS, React, <br><br>API: Youtube API <br><br>Backend: GraphQL, Hasura, Postgres</span>
-                    </div>
-                </div>
-                <div class='card__bottom-right'>
-                    <a href='https://github.com/johngwells/NextFlix' target='_blank'><i
-                            class="fa-solid fa-angle-right icon-large"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class='card'>
-            <div class='card__content fill'>
-                <img src='./img/Nextflix.png'>
-            </div>
-            <div class='card__bottom'>
-                <div class='card__bottom-left'>
-                    <span class='title'><a href='https://nextflix-tau.vercel.app/'><i class="fa-solid fa-laptop-code"></i></a>Nextflix</span>
-                    
-                    <div class='sub-title'>
-                        
-                        <span>Frontend: Javascript, Next.JS, React, <br><br>API: Youtube API <br><br>Backend: GraphQL, Hasura, Postgres</span>
-                    </div>
-                </div>
-                <div class='card__bottom-right'>
-                    <a href='https://github.com/johngwells/NextFlix' target='_blank'><i
-                            class="fa-solid fa-angle-right icon-large"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <span class='title'>
+                        <a href='#projects'><i class="fa-solid fa-laptop-code"></i></a>FlowOS</span>
 
+                    <div class='sub-title'>
+                        <span>Frontend: Javascript, Next.JS, React, Apollo <br><br>
+                            Backend: GraphQL, Hasura, Postgres</span>
+                    </div>
+                </div>
+                <div class='card__bottom-right'>
+                    <a href='https://github.com/johngwells/FlowOS' target='_blank'><i
+                            class="fa-solid fa-angle-right icon-large"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class='card'>
+            <div class='card__content fill'>
+                <img src='./img/FlowOS.png'>
+            </div>
+            <div class='card__bottom'>
+                <div class='card__bottom-left'>
+                    <span class='title'>
+                        <a href='https://nextflix-tau.vercel.app/'><i
+                                class="fa-solid fa-laptop-code"></i></a>Nextflix</span>
+
+                    <div class='sub-title'>
+                        <span>Frontend: Javascript, Next.JS, React, Apollo <br><br>
+                            Backend: GraphQL, Hasura, Postgres</span>
+                    </div>
+                </div>
+                <div class='card__bottom-right'>
+                    <a href='https://github.com/johngwells/NextFlix' target='_blank'><i
+                            class="fa-solid fa-angle-right icon-large"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class='card'>
+            <div class='card__content fill'>
+                <img src='./img/FlowOS.png'>
+            </div>
+            <div class='card__bottom'>
+                <div class='card__bottom-left'>
+                    <span class='title'>
+                        <a href='https://nextflix-tau.vercel.app/'><i
+                                class="fa-solid fa-laptop-code"></i></a>Nextflix</span>
+
+                    <div class='sub-title'>
+                        <span>Frontend: Javascript, Next.JS, React, Apollo <br><br>
+                            Backend: GraphQL, Hasura, Postgres</span>
+                    </div>
+                </div>
+                <div class='card__bottom-right'>
+                    <a href='https://github.com/johngwells/NextFlix' target='_blank'><i
+                            class="fa-solid fa-angle-right icon-large"></i></a>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <h2>Contact:</h2>
+    <form action="https://formsubmit.co/e36b7cb7777a099935e36c7ac68324eb" method="POST">
+        <input type="hidden" name="_next" value="#">
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="text" name="message" placeholder="write your message" required>
+        <button type="submit">Submit</button>
+    </form>
     <hr>
 
     <footer>Designed & coded with ❤️ - John Wells</footer>
