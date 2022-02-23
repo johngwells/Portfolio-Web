@@ -268,7 +268,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   width: 30%;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
 }
 
 input[type=email] {
