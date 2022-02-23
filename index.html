@@ -62,7 +62,7 @@
             </div>
         </div>
     </section>
-
+    <div id="projects"></div>
     <div class='projects-container'>
         <h2 class='projects__text'>Projects</h2>
         <h3 class='projects__subtitle'>*Icons* <i class="fa-solid fa-laptop-code icon-margin"></i>live app &nbsp;|&nbsp;
@@ -70,7 +70,7 @@
         </h3>
     </div>
 
-    <section id='projects' class='section-two'>
+    <section class='section-two'>
         <div class='card'>
             <div class='card__content fill'>
                 <img src='./img/FlowOS.png'>
@@ -92,16 +92,18 @@
             </div>
         </div>
     </section>
-    <h2>Contact:</h2>
-    <form action="https://formsubmit.co/e36b7cb7777a099935e36c7ac68324eb" method="POST">
-        <input type="hidden" name="_next" value="#">
-        <input type="email" name="email" placeholder="Email Address" required>
-        <input type="text" name="message" placeholder="write your message" required>
-        <button type="submit">Submit</button>
-    </form>
+    <section class="form-wrapper">
+        <h2>Contact:</h2>
+        <form class="form" action="https://formsubmit.co/e36b7cb7777a099935e36c7ac68324eb" method="POST">
+            <input type="hidden" name="_next" value="#">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea type="textarea" placeholder="write your message" required></textarea>
+            <button class="btnSubmit" type="submit">Submit</button>
+        </form>
+    </section>
     <hr>
 
-    <footer>Designed & coded with ❤️ - John Wells</footer>
+    <footer id="contact">Designed & coded with ❤️ - John Wells</footer>
 </body>
 
 </html>
