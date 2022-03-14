@@ -114,27 +114,27 @@ i:hover {
   margin-right: 3rem;
 }
 
-.section-one {
+/* .section-one {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
   margin-top: 15rem;
-}
+} */
 
-.section-one h2 {
+/* .section-one h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 2rem;
-}
+} */
 
 .projects__text {
-  margin-top: 25rem;
+  margin-top: 10rem;
   text-align: center;
   font-size: 4rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .projects__subtitle {
@@ -160,7 +160,6 @@ i:hover {
 
 .section-two {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   font-size: 1.5rem;
   margin-bottom: 10rem;
@@ -172,10 +171,12 @@ i:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 50vh;
-  max-width: 60vw;
+  height: 60vh;
+  max-width: 50%;
+  padding: 2rem;
   box-shadow: 0px 0.5rem 0.5rem rgb(91, 172, 195, 0.1);
   transition: all 0.3s ease-in-out;
+  margin-left: 25%;
   margin-bottom: 10rem;
 }
 
@@ -197,9 +198,9 @@ i:hover {
 }
 
 .fill img {
-  flex-shrink: 0;
-  max-width: 100%;
-  min-height: 130%;
+  object-fit: contain;
+  min-width: 100%;
+  height: 100%;
 }
 
 .title {
